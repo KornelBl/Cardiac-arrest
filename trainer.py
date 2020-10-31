@@ -28,5 +28,6 @@ def train_evaluate(X, Y, momentum_value, layer_size):
 
     score_sum /= 10
     confusion_matrix_sum /= 10
-
+    # TODO:Czy zmienić na int, zaokraglic czy zostawic
+    # TODO:najlepszy matrix tylko zapoisywac i sprawdzanie best w mainie
     return score_sum, confusion_matrix_sum
